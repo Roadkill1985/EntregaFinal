@@ -17,7 +17,7 @@ ul {
   margin: 2px;
   padding: 5px;
   overflow: hidden;
-  background-image: linear-gradient(to top, #ff903e, #a03100); }
+  background-image: linear-gradient(to top, #1b1b1b, #424242); }
   ul li {
     display: inline-block; }
     ul li a {
@@ -27,7 +27,7 @@ ul {
       padding: 16px;
       text-decoration: none; }
     ul li a:hover {
-      background-image: linear-gradient(to bottom, #ff903e, #a03100); }
+      background-image: linear-gradient(to bottom, #424242, #1b1b1b); }
   ul ul {
     position: absolute;
     display: none; }
@@ -136,7 +136,7 @@ div {
   font-size: 20px; }
 
 .backgroundImg {
-  background-image: url(../Media/hell-fire-background-free-thumb25.png);
+  background-image: url(../Media/blackfire.jpg);
   background-size: contain; }
 
 .socialMedia {

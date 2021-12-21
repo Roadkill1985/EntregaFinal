@@ -18,7 +18,7 @@ ul {
     margin: 2px;
     padding: 5px;
     overflow: hidden;
-    background-image: linear-gradient(to top, #ff903e, #a03100);
+    background-image: linear-gradient(to top, #1b1b1b, #424242);
     li {
         display: inline-block;
         a {
@@ -29,7 +29,7 @@ ul {
             text-decoration: none;  
                 }
                 a:hover {
-                    background-image: linear-gradient(to bottom, #ff903e, #a03100);
+                    background-image: linear-gradient(to bottom, #424242, #1b1b1b);
                     }        
                 }           
     ul {
