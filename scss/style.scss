@@ -1,0 +1,89 @@
+@import "header";
+
+@import "design";
+
+@import "structure";
+
+@import "variables";
+
+
+.mainText {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: $fuentePrincipal;
+    display: block;
+    position: static;
+    font-size: 20px;
+    }
+
+.backgroundImg {
+    background-image: url(../Media/hell-fire-background-free-thumb25.png) ;
+    background-size: contain;
+    } 
+
+
+.socialMedia { 
+    display: grid;
+    grid-template-columns: 6% 6% 6% 6% 6% 6%;
+    grid-column-gap: 15%;
+    justify-content: center;
+    text-decoration: $colorTxt;
+    &__rrss{
+        background-color: $colorAltPrim;
+        display: grid;
+        grid-template-columns: 3% 3% 3% 3% 3% 3%;
+        grid-column-gap: 10%;
+        justify-content: center;
+        }
+    &__bio{
+        display: grid;
+        grid-column-start: auto;
+        grid-template-columns: 6% 6% 6% 6% 6%;
+        background-image: none;
+        background-color: none;
+        justify-content: center;
+        grid-column-gap: 18%;
+        margin-bottom: auto;
+        font-family: "cabin sketch";
+        text-decoration: $colorTxtSec;
+        img:hover{
+        transition: all 2s;
+        height: 110px;
+        width: 100px;}
+
+        }
+    }
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
+     
+    
+   
+ 
+
+    
+    

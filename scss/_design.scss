@@ -1,0 +1,69 @@
+@import "variables";
+
+
+.banner { 
+    background-color: $colorAltPrim; 
+    text-align: center;
+    display: block;
+    margin: 5% 10% 10% 10%;
+
+    &__sub{ 
+        background-color: $colorAltSec;
+
+    &__lower{
+        background-color: $colorAltSec;
+            }
+        }
+    }
+.mainBackground { 
+    background-color: $colorPrimario;
+    }
+.bioBand {
+    display: flex;
+    flex-direction: row;
+    font-family: $fuenteSecundaria;
+    font-size: 24px;
+    color: $colorTxtSec;
+    background-color: $colorAltSec;
+    }
+.mainTitle {
+    color: $colorTxtSec;
+    font-family: $fuentePrincipal;
+    font-size: 2rem;
+    margin-bottom: 1%;
+    display: block;
+    text-align: center;
+     
+    &__subtitle{ 
+        color: $colorTxtSec;
+        font-family: $fuentePrincipal; 
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding: 3px; 
+        margin: 3px;
+        font-size: 2rem; 
+        background-color: $colorSecundario;
+         
+            }
+    &__subSubtitle{ 
+        color: $colorTxtSec;
+        text-align: center;
+        font-family: $fuentePrincipal;
+        display: block;
+        padding: 3px; 
+        margin: 3px;
+        font-size: 2rem; 
+        background-color: $colorSecundario;
+        
+            }
+        } 
+.btn {
+    background-image: linear-gradient(to top, #ff903e, #a03100);
+    }
+.btn:hover{ 
+    background-image: linear-gradient(to top, #a03100, #ff903e);
+    
+    }
+
+    

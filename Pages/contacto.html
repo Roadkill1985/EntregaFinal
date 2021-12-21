@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Metal, deathmetal, music, gigs, heavy, concert, metál, música, recital"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>NOS-Contacto</title>
+</head>
+<body class="backgroundImg">
+  <header class="menuBar">     
+    <ul>                   
+      <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./bio.html">Bio</a>
+          <ul>
+            <li id="bioBand"><a href="./bio.html">Bio Banda</a></li>
+            <li><a href="./bio.html#integrantes">Integrantes</a></li>
+          </ul>
+        </li> 
+      <li><a href="./media.html">Media</a></li>
+      <li><a href="./recitales.html">Recitales</a></li>
+      <li><a href="./contacto.html">Contacto</a></li>
+      <li><input type="Busqueda" placeholder="Search"></li>
+    </ul>            
+  </header>
+  <main class="mainText">                        
+    <div class="banner">
+      <img src="../Media/portada1.jpg" class="img-fluid" alt="BANNER">                
+      <h1 class="mainTitle">CONTACTO</h1>
+    </div>
+    <div>
+      <div class="container">
+        <div class="row" style="padding-top: 10px;">
+          <div class="mainTitle__subSubtitle">
+            <h2><label for="exampleFormControlInput1" class="form-label">Nombre</label></h2>
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label mainTitle__subSubtitle">Direccion de Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label mainTitle__subSubtitle">Dejanos tu comentario</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+          <select class="form-select" aria-label="Default select example" style="margin-bottom: 10px;">
+            <option selected>Genero</option>
+            <option value="1">Hombre</option>
+            <option value="2">Mujer</option>
+            <option value="3">Indefinido</option>
+          </select>
+        <div class="form-check" style="padding-right: 1500px;">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+          <label class="form-check-label mainTitle__subSubtitle" for="flexCheckIndeterminate">
+            <h2 class="mainTitle__subSubtitle">Recibe Noticias</h2>
+          </label>
+        </div>
+        <div class="d-grid gap-2 d-md-block">
+          <button class="btn" type="button">Enviar</button>
+          <button class="btn" type="button">Cancelar</button>
+        </div>
+      </div>
+    </div>                              
+  </main>            
+  <Footer class="mainText">
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="./bio.html">Bio</a></li>
+      <li><a href="./media.html">Media</a></li>
+      <li><a href="./contacto.html">Contacto</a></li>
+    </ul>                
+  </Footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>          
+</body>
+</html>

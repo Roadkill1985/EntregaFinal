@@ -1,0 +1,45 @@
+.despertares {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+     img:hover {
+    width: 100%; 
+    height: 100%;
+    transition: all 3s;
+        }
+    }
+    
+div {
+    text-align: center;
+    text-decoration: #62727b;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    p {
+       margin: 10%;
+       padding: 10%;
+       width: auto;
+       height: auto;
+       display: block;
+        }
+    }
+   
+
+.mainBack {
+    display: block;
+    margin: 5% 10% 10% 10%;
+    }
+
+.calendar {
+    display: flex;
+    flex-direction: block;
+    justify-content: center;
+    }
+
+.videoFrame { 
+    
+   display: flex;
+   flex-direction: block;
+   justify-content: center;
+   padding: 2%;
+   margin: 2%;
+    }

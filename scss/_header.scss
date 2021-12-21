@@ -1,0 +1,46 @@
+.menuBar {
+    position: sticky;
+    z-index: 100;
+    top: 20px;
+    bottom: 20px;
+    left: 30px;
+    right: 30px;
+    display: grid;
+    font-size: 20px;
+    font-family: "Cabin Sketch";
+    grid-template-columns: repeat(100px);
+    grid-template-rows: 70px;
+    justify-content: center;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 5px;
+    overflow: hidden;
+    background-image: linear-gradient(to top, #ff903e, #a03100);
+    li {
+        display: inline-block;
+        a {
+            display: block;
+            color:  #000000;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;  
+                }
+                a:hover {
+                    background-image: linear-gradient(to bottom, #ff903e, #a03100);
+                    }        
+                }           
+    ul {
+        position: absolute;
+        display: none;
+        li {
+            display: block;
+            }
+        }
+            
+    li:hover ul {
+        display: block;
+        }
+    }
