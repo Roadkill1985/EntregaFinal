@@ -73,7 +73,7 @@ ul {
     padding: 3px;
     margin: 3px;
     font-size: 2rem;
-    background-color: #424242; }
+    background-color: none; }
   .mainTitle__subSubtitle {
     color: #ffffff;
     text-align: center;
@@ -145,20 +145,8 @@ div {
   grid-column-gap: 15%;
   justify-content: center;
   text-decoration: #000000; }
-  .socialMedia__rrss {
-    background-color: #a03100;
-    display: grid;
-    grid-template-columns: 3% 3% 3% 3% 3% 3%;
-    grid-column-gap: 10%;
-    justify-content: center; }
   .socialMedia__bio {
-    display: grid;
-    grid-column-start: auto;
-    grid-template-columns: 6% 6% 6% 6% 6%;
-    background-image: none;
     background-color: none;
-    justify-content: center;
-    grid-column-gap: 18%;
-    margin-bottom: auto;
+    background-image: none;
     font-family: "cabin sketch";
-    text-decoration: #ffffff; }
+    display: inline-block; }
