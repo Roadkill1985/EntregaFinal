@@ -62,7 +62,7 @@ ul {
   font-family: "cabin sketch";
   font-size: 2rem;
   margin-bottom: 1%;
-  display: block;
+  display: inline block;
   text-align: center; }
   .mainTitle__subtitle {
     color: #ffffff;
