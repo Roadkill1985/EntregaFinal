@@ -2,17 +2,13 @@
 
 
 .banner { 
-    background-color: $colorAltPrim; 
+    background-color: $colorSecundario; 
     text-align: center;
     display: block;
     margin: 5% 10% 10% 10%;
 
     &__sub{ 
         background-color: $colorAltSec;
-
-    &__lower{
-        background-color: $colorAltSec;
-            }
         }
     }
 .mainBackground { 

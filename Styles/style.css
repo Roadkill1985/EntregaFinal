@@ -37,14 +37,12 @@ ul {
     display: block; }
 
 .banner {
-  background-color: #a03100;
+  background-color: #424242;
   text-align: center;
   display: block;
   margin: 5% 10% 10% 10%; }
   .banner__sub {
     background-color: #1b1b1b; }
-    .banner__sub__lower {
-      background-color: #1b1b1b; }
 
 .mainBackground {
   background-color: #d86005; }
