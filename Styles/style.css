@@ -83,8 +83,10 @@ ul {
 .btn:hover {
   background-image: linear-gradient(to top, #a03100, #ff903e); }
 
-.form-control {
-  width: 30rem; }
+.formContact {
+  display: inline-block;
+  justify-content: initial;
+  padding: 0.5em; }
 
 .despertares {
   display: flex;
@@ -98,7 +100,7 @@ ul {
 div {
   text-align: center;
   text-decoration: #62727b;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   margin-top: 2em; }
   div p {
     margin: 2em;
