@@ -62,20 +62,24 @@ ul {
   display: inline block;
   text-align: center; }
   .mainTitle__subtitle {
-    color: #ffffff;
+    color: #d86005;
     font-family: "cabin sketch";
+    font-style: bold;
     display: block;
     justify-content: center;
     text-align: center;
     margin: 3px;
-    background-color: none; }
+    background-color: #1b1b1b; }
   .mainTitle__subSubtitle {
-    color: #ffffff;
+    color: #d86005;
     text-align: initial;
     font-family: "cabin sketch";
+    font-style: bold;
+    justify-content: center;
+    text-align: center;
     display: block;
     margin: 1em;
-    background-color: none; }
+    background-color: #1b1b1b; }
 
 .btn {
   background-image: linear-gradient(to top, #ff903e, #a03100); }

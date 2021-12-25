@@ -31,22 +31,26 @@
     text-align: center;
      
     &__subtitle{ 
-        color: $colorTxtSec;
+        color: $colorPrimario;
         font-family: $fuentePrincipal; 
+        font-style: bold;
         display: block;
         justify-content: center;
         text-align: center;
         margin: 3px; 
-        background-color: none;
+        background-color: $colorAltSec;
          
             }
     &__subSubtitle{ 
-        color: $colorTxtSec;
+        color: $colorPrimario;
         text-align: initial;
         font-family: $fuentePrincipal;
+        font-style: bold;
+        justify-content: center;
+        text-align: center;
         display: block;
         margin: 1em;
-        background-color: none;
+        background-color: $colorAltSec;
         
             }
         } 
