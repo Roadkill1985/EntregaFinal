@@ -31,36 +31,36 @@
   <main class="mainText">                        
     <div class="banner">
       <img src="../Media/portada1.jpg" class="img-fluid" alt="BANNER">                
-      <h1 class="mainTitle">CONTACTO</h1>
+        <h1 class="mainTitle">CONTACTO</h1>
     </div>
-    <div>
-      <div class="container">
-        <div class="row" style="padding-top: 10px;">
-          <div class="mainTitle__subSubtitle">
-            <h2><label for="exampleFormControlInput1" class="form-label">Nombre</label></h2>
+    <div class="formContact">
+      <div>
+        <div class="mb-3">
+          <div>
+            <h2><label class="mainTitle__subSubtitle">Nombre</label></h2>
           </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+          <div">
+            <input type="text" placeholder="Nombre" aria-label="Name">
           </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+          <div>
+            <input type="text" placeholder="Apellido" aria-label="Surname">
           </div>
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label mainTitle__subSubtitle">Direccion de Email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+         <h2><label class="mainTitle__subSubtitle">Direccion de Email</label></h2>
+          <input type="email" placeholder="name@example.com">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label mainTitle__subSubtitle">Dejanos tu comentario</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <h2><label class="mainTitle__subSubtitle">Deja tu Comentario</label></h2>
+          <textarea rows="6" cols="30"></textarea>
         </div>
-          <select class="form-select" aria-label="Default select example" style="margin-bottom: 10px;">
+          <select>
             <option selected>Genero</option>
             <option value="1">Hombre</option>
             <option value="2">Mujer</option>
             <option value="3">Indefinido</option>
           </select>
-        <div class="form-check" style="padding-right: 1500px;">
+        <div class="form-check" style="padding-right: 2rem;">
           <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
           <label class="form-check-label mainTitle__subSubtitle" for="flexCheckIndeterminate">
             <h2 class="mainTitle__subSubtitle">Recibe Noticias</h2>
@@ -68,11 +68,11 @@
         </div>
         <div class="d-grid gap-2 d-md-block">
           <button class="btn" type="button">Enviar</button>
-          <button class="btn" type="button">Cancelar</button>
+          <button class="btn" type="reset">Cancelar</button>
         </div>
       </div>
     </div>                              
-  </main>            
+  </main>           
   <Footer class="mainText">
     <ul>
       <li><a href="../index.html">Inicio</a></li>
