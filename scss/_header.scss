@@ -2,14 +2,12 @@
     position: sticky;
     z-index: 100;
     top: 2em;
-    bottom: 1em;
+    bottom: 2em;
     left: 3em;
     right: 3em;
-    display: grid;
+    display: inline-block;
     font-size: 1em;
     font-family: "Cabin Sketch";
-    grid-template-columns: repeat(1em);
-    grid-template-rows: 4em;
     justify-content: center;
     
     }
@@ -17,16 +15,17 @@
 ul {
     list-style-type: none;
     margin: 2px;
-    padding: 5px;
+    padding: 2px;
     overflow: hidden;
     background-image: linear-gradient(to top, #1b1b1b, #424242);
     li {
         display: inline-block;
+        padding: none;
         a {
             display: block;
             color:  #ffff;
             text-align: center;
-            padding: 16px;
+            padding: 0.5em;
             text-decoration: none;  
                 }
                 a:hover {
