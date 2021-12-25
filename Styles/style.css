@@ -22,7 +22,7 @@ ul {
     display: inline-block; }
     ul li a {
       display: block;
-      color: #000000;
+      color: #ffff;
       text-align: center;
       padding: 16px;
       text-decoration: none; }
@@ -131,7 +131,7 @@ div {
   font-family: "cabin sketch";
   display: block;
   position: static;
-  font-size: 20px; }
+  font-size: 1em; }
 
 .backgroundImg {
   background-image: url(../Media/blackfire.jpg);
