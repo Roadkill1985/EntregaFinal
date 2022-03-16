@@ -7,7 +7,7 @@
   right: 3em;
   display: inline-block;
   font-size: 1em;
-  font-family: "Cabin Sketch";
+  font-family: 'MedievalSharp';
   justify-content: center; }
 
 ul {
@@ -49,21 +49,21 @@ ul {
 .bioBand {
   display: flex;
   flex-direction: row;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "MedievalSharp";
   font-size: 2em;
   color: #ffffff;
   background-color: #1b1b1b; }
 
 .mainTitle {
   color: #ffffff;
-  font-family: "cabin sketch";
+  font-family: "MedievalSharp";
   font-size: 2em;
   margin-bottom: 1%;
   display: inline block;
   text-align: center; }
   .mainTitle__subtitle {
     color: #d86005;
-    font-family: "cabin sketch";
+    font-family: "MedievalSharp";
     font-style: bold;
     display: block;
     justify-content: center;
@@ -73,7 +73,7 @@ ul {
   .mainTitle__subSubtitle {
     color: #d86005;
     text-align: initial;
-    font-family: "cabin sketch";
+    font-family: "MedievalSharp";
     font-style: bold;
     justify-content: center;
     text-align: center;
@@ -132,7 +132,7 @@ div {
 .mainText {
   text-align: center;
   text-transform: capitalize;
-  font-family: "cabin sketch";
+  font-family: "MedievalSharp";
   display: block;
   position: static;
   font-size: 1em; }
@@ -150,5 +150,5 @@ div {
   .socialMedia__bio {
     background-color: none;
     background-image: none;
-    font-family: "cabin sketch";
+    font-family: "MedievalSharp";
     display: inline-block; }
